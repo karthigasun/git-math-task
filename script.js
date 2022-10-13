@@ -13,7 +13,7 @@ function stage1Oprtn() {
 
 function stage2(){
     let problems_1=document.getElementsByClassName("problem"),
-    proEle,opEle,opType,nu1Ele,nu2Ele,nu2Elevalue,nu1Elevalue,expected,actual,actualAnswer,mark=0;
+    opEle,opType,nu1Ele,nu2Ele,nu2Elevalue,nu1Elevalue,expected,actual,actualAnswer,mark=0;
     for(i=0;i<problems_1.length;i++){
        var problem_1=problems_1[i];
        //findoperation

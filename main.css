@@ -2,20 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 .container{
     width: 100%;
-    height: auto;
+    background-image: linear-gradient(to left, #051937, #002366, #002a95, #0029c2, #4912eb);
 }
 .inner-cont{
     margin: auto;
     width: 90%;
     padding: 25px 0px;
+    display: flex;
+    flex-direction: column;
 }
 .head{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
 }
 .lab{
     width: 50%;
@@ -35,7 +37,6 @@
 }
 .sel select{
     font-size: 20px;
-    /* padding: 0px 30px; */
     width: 60%;
 }
 hr{
@@ -55,20 +56,48 @@ hr{
     text-align: center;
     width: 50%;
 }
+.head h1{
+    font-size: 36px;
+    padding-bottom: 30px;
+    color: #fff;
+    font-weight: 700;
+}
 .single-btn button{
     font-size: 20px;
     padding: 8px 20px;
     border-radius: 10px;
-    /* color: #fff; */
+    color: #fff;
     background-color:transparent;
     border: none;
     outline: 2px solid aqua;
+    cursor: pointer;
 }
 .problems{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-/* .problems{
-    width: 25%;
-} */
+
+.problem{
+    width: 30%;
+    margin-top: 20px;
+    padding: 20px;
+    outline: #fff 2px solid;
+    border-radius: 12px;
+    color: #fff;
+    box-shadow: 1px 1px 1px grey;
+    background-color: #0093E9;
+    background-image: linear-gradient(to top, #051937, #002366, #002a95, #0029c2, #4912eb);
+
+}
+.problem input{
+    width: 70%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: 1px solid aqua;
+    margin-top: 12px;
+}
+.problem h3{
+    padding: 10px;
+}
